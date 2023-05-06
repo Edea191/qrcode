@@ -1,0 +1,47 @@
+*{
+background-color: hsl(212, 45%, 89%);
+text-align: center;
+font-size: 15px;
+font-family: 'Kumbh Sans', sans-serif;
+
+
+}
+
+main{
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    height: 480px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5%;
+}
+main, p{
+    background-color: aliceblue;
+}
+
+img{
+    height: 290px;
+    width: 290px;
+    border-radius: 5%;
+    margin-bottom: 1%;
+}
+
+p:nth-child(2){
+    font-size: 23px;
+    padding: 0px 15px 0px 15px;
+    font-weight: 700;
+  
+}
+p:nth-child(3){
+    padding: 0px 15px 0px 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+
+@media(min-width:600px){
+    main{
+        margin-top: 10%;
+    }
+}
